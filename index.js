@@ -62,14 +62,7 @@ function Spa() {
           />
           <Route
             path='/alldata/'
-            // component={AllData}
-            component={() => {
-              <div style={{ padding: "20px" }}>
-                <AllData />
-                <Login />
-                <Deposit />
-              </div>;
-            }}
+            component={AllData}
           />
         </div>
       </UserContext.Provider>
