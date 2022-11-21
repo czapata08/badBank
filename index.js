@@ -34,9 +34,7 @@ function Spa() {
     <HashRouter>
       <NavBar />
       <UserContext.Provider value={value}>
-        <div
-          className='container'
-          style={{ padding: "20px" }}>
+        <div style={{ padding: "20px" }}>
           <Route
             path='/'
             exact
@@ -64,7 +62,14 @@ function Spa() {
           />
           <Route
             path='/alldata/'
-            component={AllData}
+            // component={AllData}
+            component={() => {
+              <div style={{ padding: "20px" }}>
+                <AllData />
+                <Login />
+                <Deposit />
+              </div>;
+            }}
           />
         </div>
       </UserContext.Provider>
