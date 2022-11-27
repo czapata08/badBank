@@ -20,6 +20,14 @@
   padding: 20px;
 }
 
+.main-col {
+  background-color: rgb(122, 175, 255);
+}
+
+.side-col {
+  background-color: rgb(229, 239, 254);
+}
+
 footer {
   background: #212529;
 }

@@ -68,6 +68,10 @@ function Spa() {
             path='/updateuser/'
             component={UpdateUser}
           />
+          <Route
+            path='/userdashboard/'
+            component={UserDashboard}
+          />
         </div>
       </UserContext.Provider>
     </HashRouter>

@@ -70,6 +70,13 @@ function NavBar() {
                 href='#/updateuser/'>
                 Update Profile
               </a>
+              <li className='nav-item'>
+                <a
+                  className='nav-link'
+                  href='#/userdashboard/'>
+                  User Dashboard
+                </a>
+              </li>
             </li>
           </ul>
         </div>
