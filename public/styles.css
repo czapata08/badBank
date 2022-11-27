@@ -1,0 +1,33 @@
+.hero {
+  color: white;
+  background-image: url("https://images.unsplash.com/photo-1438109491414-7198515b166b?q=80&fm=jpg&s=cbdabf7a79c087a0b060670a6d79726c");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 55vh;
+}
+
+.credit-cards {
+  width: 159 px;
+  height: 102 px;
+  background-color: #00aeef;
+  mix-blend-mode: normal;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+.services {
+  padding: 20px;
+}
+
+footer {
+  background: #212529;
+}
+
+/* ==========================================
+    CUSTOM UTILS CLASSES
+  ========================================== */
+body,
+html {
+  height: 100%;
+}
